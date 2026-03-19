@@ -1,0 +1,50 @@
+# --- Python y Caché ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Entornos Virtuales ---
+# Se recomienda NO subirlos porque son específicos de cada máquina
+venv/
+.venv/
+env/
+ENV/
+bin/
+lib/
+include/
+
+# --- Configuración y Secretos ---
+# ¡NUNCA subas tus llaves API o contraseñas!
+.env
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --- Distribución y Construcción ---
+dist/
+build/
+*.egg-info/
+nosetests.xml
+coverage.xml
+*.cover
+.coverage
+
+# --- Editores de Código ---
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# PyCharm / JetBrains
+.idea/
+
+# --- Otros (Jupyter, logs, etc.) ---
+.ipynb_checkpoints
+*.log
+.DS_Store
